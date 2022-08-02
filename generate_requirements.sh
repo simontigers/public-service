@@ -1,0 +1,1 @@
+pip freeze | grep -v "pkg-resources\|pkg_resources" > requirements.txt
